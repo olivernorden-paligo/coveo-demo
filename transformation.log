@@ -1,0 +1,101 @@
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] ############################################################
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] # Output Factory initiated (html5)
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] # Building output for: ACME Owner's Manual
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] # URL /document/edit/677424
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] # User: Paligo Support
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] # Time: Tue, 05 Sep 2023 11:12:50 +0100
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] # Server: cambridge
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] ############################################################
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] Group: custom
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] Type: html5
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] Transformation: $user_dir/xsl/custom/layout-731379.xsl
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] File found: $user_dir/xsl/custom/layout-731379.xsl
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] ############################################################
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] Building output for: html5
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] Using stylesheet: $user_dir/xsl/custom/layout-731379.xsl
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] Parameters for this build: []
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] Environment variables for this build: Array
+(
+    [taxonomies.propagate] => 1
+)
+
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] Building output for languages: Array
+(
+    [0] => en
+)
+
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] Building multilang: no
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] Building preview: no
+[05/Sep/2023 11:12:50 Europe/Dublin] [Info] ############################################################
+[05/Sep/2023 11:12:51 Europe/Dublin] [Info] Using build directory: $local_tmp/production-64f6ff217f0ba4.22456910/html5-ACME_Owner_s_Manual-677424-64f6ff23472c58_08264176
+[05/Sep/2023 11:12:52 Europe/Dublin] [Info] -- Generating source files
+[05/Sep/2023 11:12:52 Europe/Dublin] [Info] -- Propagating taxonomies: true
+[05/Sep/2023 11:12:54 Europe/Dublin] [Info] -- Source files have been generated
+[05/Sep/2023 11:12:54 Europe/Dublin] [Info] -- Publication has no unresolved dependencies.
+[05/Sep/2023 11:12:54 Europe/Dublin] [Info] -- Generating source files complete.
+[05/Sep/2023 11:12:54 Europe/Dublin] [Info] Localizing: publication-677424.xml
+[05/Sep/2023 11:12:54 Europe/Dublin] [Info] Language: en
+[05/Sep/2023 11:12:55 Europe/Dublin] [Info] Variable sets found: 1
+[05/Sep/2023 11:12:56 Europe/Dublin] [Info] Inserting image links.
+[05/Sep/2023 11:12:56 Europe/Dublin] [Info] Found 8 image(s).
+[05/Sep/2023 11:12:56 Europe/Dublin] [Info] Found image 'Screenshot_2022-08-15_at_12_59_13.png'
+[05/Sep/2023 11:12:56 Europe/Dublin] [Info] Found image 'ignition-lock.jpg'
+[05/Sep/2023 11:12:56 Europe/Dublin] [Info] Found image 'start-stop-button.jpg'
+[05/Sep/2023 11:12:56 Europe/Dublin] [Info] Found image 'start-stop-button.jpg'
+[05/Sep/2023 11:12:56 Europe/Dublin] [Info] Found image 'glove-compartment.jpg'
+[05/Sep/2023 11:12:56 Europe/Dublin] [Info] Found image 'cupholders.jpg'
+[05/Sep/2023 11:12:56 Europe/Dublin] [Info] Found image 'cd-multimedia.jpg'
+[05/Sep/2023 11:12:56 Europe/Dublin] [Info] Found image 'apple-carplay.jpg'
+[05/Sep/2023 11:12:57 Europe/Dublin] [Info] Profiling parameters: []
+[05/Sep/2023 11:12:57 Europe/Dublin] [Info] Profiling customisation: $user_dir/xsl/profile.xsl (not found)
+[05/Sep/2023 11:12:57 Europe/Dublin] [Info] Transformation: publication-677424--en.org.xml -> publication-677424--en.xml [profile.xsl]
+[05/Sep/2023 11:12:57 Europe/Dublin] [Info] Transformation: publication-677424--en.xml -> publication-677424--en.xml [internal-xref.xsl]
+[05/Sep/2023 11:12:58 Europe/Dublin] [Info] Transformation: A-filelist.xml -> B-sorted.xml [IO.document.sortlang.xsl]
+[05/Sep/2023 11:12:58 Europe/Dublin] [Info] Transformation: B-sorted.xml -> C-concatenated.xml [IO.document.concat.xsl]
+[05/Sep/2023 11:12:58 Europe/Dublin] [Info] Transformation: B-sorted.xml -> index-en.xml [IO.document.head.xsl]
+[05/Sep/2023 11:12:58 Europe/Dublin] [Info] Created copy: $user_dir/xsl/custom/layout-731379.xsl -> $user_dir/xsl/custom/64f6ff2a6717c.xsl
+[05/Sep/2023 11:12:58 Europe/Dublin] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5-2.page.xsl -> $user_dir/xsl/custom/64f6ff2a6717c.page.xsl
+[05/Sep/2023 11:12:58 Europe/Dublin] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5-2.index.xsl -> $user_dir/xsl/custom/64f6ff2a6717c.index.xsl
+[05/Sep/2023 11:12:58 Europe/Dublin] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.toc.xsl -> $user_dir/xsl/custom/64f6ff2a6717c.toc.xsl
+[05/Sep/2023 11:12:58 Europe/Dublin] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.page.xsl -> $user_dir/xsl/custom/64f6ff2a6717c.page.xsl
+[05/Sep/2023 11:12:58 Europe/Dublin] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.index.xsl -> $user_dir/xsl/custom/64f6ff2a6717c.index.xsl
+[05/Sep/2023 11:12:59 Europe/Dublin] [Info] Image copied: en/image/uuid-3d34bc61-b7a8-71d9-0df9-54aa1e118b2b.png
+[05/Sep/2023 11:12:59 Europe/Dublin] [Info] Image copied: en/image/uuid-a399f8b6-93c9-c71b-928e-9e3c45ffb559.jpg
+[05/Sep/2023 11:12:59 Europe/Dublin] [Info] Image copied: en/image/uuid-ade59aa8-4f26-e144-0b88-78336956e070.jpg
+[05/Sep/2023 11:12:59 Europe/Dublin] [Info] Image copied: en/image/uuid-87d34354-cd83-cb62-aad2-68805b64966f.jpg
+[05/Sep/2023 11:12:59 Europe/Dublin] [Info] Image copied: en/image/uuid-d61c2aa1-4139-486d-f081-2af514665ef0.jpg
+[05/Sep/2023 11:12:59 Europe/Dublin] [Info] Image copied: en/image/uuid-b45819c5-b56b-244d-579b-695cded0b7ce.jpg
+[05/Sep/2023 11:12:59 Europe/Dublin] [Info] Image copied: en/image/uuid-d5c39f17-5e4e-f39d-65fb-aa76c65b612c.jpg
+[05/Sep/2023 11:12:59 Europe/Dublin] [Info] Image copied: en/image/uuid-acc4c357-2aa2-0a1d-219d-a2572635cddc.jpg
+[05-Sep-2023 11:12:59 Europe/Dublin] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, js/jquery-3/*, fonts/*
+[05-Sep-2023 11:12:59 Europe/Dublin] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, fonts/*
+[05-Sep-2023 11:12:59 Europe/Dublin] Copy file '$apppath/lib/docbook/xsl/html5/css/image/corporate-logo-white.svg' to '$local_tmp/production-64f6ff217f0ba4.22456910/html5-ACME_Owner_s_Manual-677424-64f6ff23472c58_08264176/out/css/image/corporate-logo.svg'
+[05-Sep-2023 11:12:59 Europe/Dublin] Copy file '$apppath/lib/docbook/xsl/html5/css/image/corporate-logo-white.svg' to '$local_tmp/production-64f6ff217f0ba4.22456910/html5-ACME_Owner_s_Manual-677424-64f6ff23472c58_08264176/out/css/image/portal-logo.svg'
+[05-Sep-2023 11:13:00 Europe/Dublin] Post build HTML5
+[05/Sep/2023 11:13:00 Europe/Dublin] [Info] Transformation: index-en.html -> toc-en.html [64f6ff2a6717c.toc.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: symbols.html -> symbols.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: maintenance-and-repairs.html -> maintenance-and-repairs.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: parts-and-accessories.html -> parts-and-accessories.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: california-proposition-65-warning.html -> california-proposition-65-warning.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: service-and-warranty.html -> service-and-warranty.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: safety.html -> safety.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: universal-garage-door-opener.html -> universal-garage-door-opener.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: universal-garage-door-opener.html -> universal-garage-door-opener.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: voice-activation.html -> voice-activation.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: insert-the-remote-control.html -> insert-the-remote-control.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: remove-the-remote-control.html -> remove-the-remote-control.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: ignition-lock.html -> ignition-lock.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: starting-the-engine.html -> starting-the-engine.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: stopping-the-engine.html -> stopping-the-engine.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: cd-multimedia.html -> cd-multimedia.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: apple-carplay.html -> apple-carplay.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: introduction.html -> introduction.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: the-control-system.html -> the-control-system.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: driving.html -> driving.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: interior-equipment.html -> interior-equipment.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: entertainment.html -> entertainment.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: technical-data.html -> technical-data.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: index-en.html -> index-en.html [64f6ff2a6717c.page.xsl]
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Generating index page.
+[05/Sep/2023 11:13:01 Europe/Dublin] [Info] Transformation: index.manifest -> index.html [64f6ff2a6717c.index.xsl]
+[05/Sep/2023 11:13:02 Europe/Dublin] [Info] # Took 11.456527 seconds to render.
